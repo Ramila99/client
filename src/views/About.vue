@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Saved/>
 </template>
+<script>
+  import Saved from '../components/Saved'
+
+  export default {
+    name: 'Home',
+
+    components: {
+      Saved,
+    },
+  }
+</script>
